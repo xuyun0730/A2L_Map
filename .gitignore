@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.map_a2l_cache.json
+*.egg-info/
+.venv/
+.pytest_cache/
+tool/build/

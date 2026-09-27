@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "map-a2l-lookup"
+version = "0.01"
+description = "Offline MAP/A2L symbol and address lookup tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "CEA2_TZCU tools" }]
+
+[project.scripts]
+map-a2l = "map_a2l_tool.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
