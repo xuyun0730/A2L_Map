@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "map-a2l-lookup"
-version = "0.01"
+version = "0.2.0"
 description = "Offline MAP/A2L symbol and address lookup tool"
 readme = "README.md"
 requires-python = ">=3.10"
